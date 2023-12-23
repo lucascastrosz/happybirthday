@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Happy Monkey';
+    color: #FFDB58;
+}
+
+header > h2 {
+    padding: 10px;
+    color: #FFDB58;
+    text-align: center;
+    font-family: 'Festive', cursive;
+}
+
+menu{
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu ul li a{
+    display: block;
+    background-color: rgb(31, 29, 29);
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid rgb(53, 52, 52);
+    text-decoration: none;
+    color: white;
+}
+
+menu ul li a:hover{
+    background-color: grey;
+}
+
+main {
+    width: 90vw;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+iframe{
+    text-align: center;
+}
+
+main h1{
+    font-family: 'Happy Monkey';
+    padding: 10px;
+}
+
+main > p{
+    font-size: 1em;
+    padding: 10px;
+}
+
+.material-symbols-outlined {
+    background-color: rgba(41, 40, 40, 0.274);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px){
+
+menu{
+    height: 40px;
+    display: block;
+    text-align: left;
+}
+
+menu ul li{
+    display: inline-block;
+}
+
+main{
+    width: 768px;
+}
+
+
+.material-symbols-outlined {
+    display: none;
+
+}
+
+
+
+
+}
