@@ -84,5 +84,13 @@ main > p{
     cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+    img{
+        max-width: 250px;
+    }
 
+    iframe{
+        max-width: 80vw;
+    }
+}
 
